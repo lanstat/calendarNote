@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/menu"
+    android:orientation="vertical" 
+    style="@style/BackgroundMenu"
+    android:layout_width="1dp" 
+    android:layout_height="1dp">
+    <TextView 
+        android:text="ACCIONES"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:padding="10dp" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/new_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/menu_selector"
+            android:padding="10dp">
+            <ImageView  
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+            	android:padding="5dp"
+            	android:layout_margin="0px" 
+            	android:src="@drawable/new_note"/>
+        	<TextView
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" 
+        		android:paddingLeft="10dp"
+            	android:text="Nueva nota"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/configuracion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/menu_selector"
+            android:padding="10dp">
+            <ImageView  
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+            	android:padding="5dp"
+            	android:layout_margin="0px" 
+            	android:src="@drawable/config"/>
+        	<TextView
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" 
+        		android:paddingLeft="10dp"
+            	android:text="Configuracion"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/acercade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/menu_selector"
+            android:padding="10dp">
+            <ImageView  
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+            	android:padding="5dp"
+            	android:layout_margin="0px" 
+            	android:src="@drawable/share"/>
+        	<TextView
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" 
+        		android:paddingLeft="10dp"
+            	android:text="Acerca de"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 
+    <ListView 
+        android:id="@+id/list" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        style="@style/BackgroundMenu" 
+        android:scrollbars="none">
+    </ListView> -->
+</LinearLayout>

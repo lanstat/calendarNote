@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/actionbar"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:text="Ordenar por" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/actionbar"
+        android:text="Fecha de creacion" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/actionbar"
+        android:text="Prioridad" />
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/actionbar"
+        android:padding="10dp"
+        android:text="Tipo" />
+
+</LinearLayout>
+</RelativeLayout>
